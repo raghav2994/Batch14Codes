@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation for DemoEverShop">
+    <test name="TC's to be execute on Chrome Browser">
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="Sanity"></include>-->
+<!--            </run>-->
+<!--        </groups>-->
+        <classes>
+            <class name="org.demoEverTest.DemoEverTest"></class>
+<!--            <class name="org.demoEverTest.DemoEverTestParallel"></class>-->
+<!--            <class name="org.demoEverTest.DemoEverTestParallerThird"></class>-->
+
+        </classes>
+    </test>
+</suite>
