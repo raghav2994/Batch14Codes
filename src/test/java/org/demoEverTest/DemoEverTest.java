@@ -27,7 +27,7 @@ public class DemoEverTest {
     public void beforeMethodForDemoEver() throws MalformedURLException {
 
         cd = new ChromeOptions();
-        wd = new RemoteWebDriver(new URL("http://192.168.1.4:4444"), cd);
+        wd = new RemoteWebDriver(new URL("http://192.168.1.7:4444"), cd);
 
     }
 
